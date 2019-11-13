@@ -64,26 +64,29 @@
     <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-firestore.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#config-web-app -->
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script> -->
 
     <script>
-        // Your web app's Firebase configuration
+        // Jazz chat app's Firebase configuration
         var config = {
-            apiKey: "AIzaSyDb6-LiL-hL1MWkJi-vUroICvkQZFkKVo0",
-            authDomain: "udemy-modern-javascript-48827.firebaseapp.com",
-            databaseURL: "https://udemy-modern-javascript-48827.firebaseio.com",
-            projectId: "udemy-modern-javascript-48827",
-            storageBucket: "udemy-modern-javascript-48827.appspot.com",
-            messagingSenderId: "181918369996",
-            appId: "1:181918369996:web:567fec3567176683"
+            apiKey: "AIzaSyBjDj82RXXonOuTkYZecfCmRGFvikWRMes",
+            authDomain: "jazz-chatroom.firebaseapp.com",
+            databaseURL: "https://jazz-chatroom.firebaseio.com",
+            projectId: "jazz-chatroom",
+            storageBucket: "jazz-chatroom.appspot.com",
+            messagingSenderId: "584123481427",
+            appId: "1:584123481427:web:b64984bb9717ae087b35a6",
+            measurementId: "G-J93P648L9P"
         };
         // Initialize Firebase
         firebase.initializeApp(config);
         const db = firebase.firestore();
+        // firebase.analytics();
     </script>
 
     
